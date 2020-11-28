@@ -17,6 +17,7 @@ const StyledLogo = styled.div`
   background-size: 150em;
   border: var(--borderSize) solid white;
   display: flex;
+  color: var(--black) !important;
 
   .inner {
     margin: var(--borderSize);
