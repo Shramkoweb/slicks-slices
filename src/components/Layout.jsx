@@ -4,6 +4,7 @@ import "normalize.css";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import GlobalStyles from "../styles/GlobalStyles";
+import Typography from "../styles/Typography";
 
 const Layout = (props) => {
   const { children } = props;
@@ -11,6 +12,7 @@ const Layout = (props) => {
   return (
     <div>
       <GlobalStyles/>
+      <Typography/>
 
       <Navigation/>
 
