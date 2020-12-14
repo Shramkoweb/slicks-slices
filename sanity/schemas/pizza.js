@@ -1,4 +1,5 @@
 import topping from "./topping";
+import PriceInput from "../components/PriceInput";
 
 export default {
   // Computed name
@@ -35,6 +36,7 @@ export default {
       name: "price",
       title: "Price",
       type: "number",
+      inputComponent: PriceInput,
       description: "Price of the pizza in cents",
       validation: Rule => Rule.min(1000),
     },
