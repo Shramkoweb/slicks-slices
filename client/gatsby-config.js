@@ -1,8 +1,8 @@
-import dotenv from "dotenv";
+require("dotenv")
+  .config({ path: ".env" });
+// TODO need check build in esm modules
 
-dotenv.config({ path: ".env" });
-
-export default {
+module.exports = {
   siteMetadata: {
     title: "Hello",
     site_url: "https://slicksslices.gtsb.io",
