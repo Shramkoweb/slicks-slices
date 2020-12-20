@@ -32,9 +32,11 @@ const StyledNav = styled.nav`
     &:nth-of-type(1) {
       --rotate: -1deg;
     }
+
     &:nth-of-type(2) {
       --rotate: -2.5deg;
     }
+
     &:nth-of-type(4) {
       --rotate: 4deg;
     }
@@ -73,7 +75,7 @@ const Navigation = () => {
 
         <li>
           <Link to="/">
-            <Logo/>
+            <Logo />
           </Link>
         </li>
 
