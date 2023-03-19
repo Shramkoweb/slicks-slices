@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <p>&copy; Slick's Slices since {new Date(sinceDate).getFullYear()}</p>
 
-      <p>Made with ❤️‍ by - <a href='https://shramko.xyz/' target='_blank' rel="noopener">Serhii Shramko</a></p>
+      <p>Made with ❤️‍ by - <a href='https://shramko.dev/'>Serhii Shramko</a></p>
     </footer>
   );
 };
